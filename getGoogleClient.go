@@ -1,18 +1,5 @@
 package main
 
-import (
-	"context"
-	"encoding/json"
-	"fmt"
-	"io/ioutil"
-	"log"
-	"net/http"
-	"os"
-
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
-)
-
 /* func getGoogleClient() (*http.Client, error) {
 	// Replace 'credentials.json' with the path to your JSON credentials file.
 	credFile := "path/to/your/credentials.json"
@@ -30,7 +17,7 @@ import (
 	client := getClient(config)
 	return client, nil
 } */
-
+/*
 func getClient(config *oauth2.Config) *http.Client {
 	tokenFile := "token.json"
 	tok, err := tokenFromFile(tokenFile)
@@ -77,3 +64,4 @@ func saveToken(file string, token *oauth2.Token) {
 	defer f.Close()
 	json.NewEncoder(f).Encode(token)
 }
+*/
